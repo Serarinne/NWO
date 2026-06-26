@@ -141,9 +141,9 @@
                 </div>
             </div>
 
-            <div class="mt-8 text-center text-sm text-gray-500 flex flex-col sm:flex-row items-center justify-center gap-1">
+            <div class="mt-8 text-center text-sm text-gray-300 flex flex-col sm:flex-row items-center justify-center gap-1">
                 <p>You can email us directly at</p>
-                <a href="mailto:support@ntewallpapers.com" class="text-cyan-400 hover:text-cyan-300 font-medium hover:underline transition-colors decoration-cyan-400/50 underline-offset-4">
+                <a href="mailto:support@ntewallpapers.com" class="text-cyan-300 hover:text-cyan-200 font-medium underline hover:no-underline transition-colors decoration-cyan-300/60 underline-offset-4">
                     support@ntewallpapers.com
                 </a>
             </div>

@@ -4,7 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download App - {{ env('APP_NAME') }}</title>
+    <meta name="description" content="Download {{ env('APP_NAME') }} to access thousands of premium Neverness to Everness wallpapers with faster loading, offline favorites, and push notifications for new updates.">
+    <link rel="canonical" href="{{ url()->current() }}">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ env('APP_NAME') }}">
+    <meta property="og:title" content="Download App - {{ env('APP_NAME') }}">
+    <meta property="og:description" content="Download {{ env('APP_NAME') }} to access thousands of premium Neverness to Everness wallpapers with faster loading, offline favorites, and push notifications for new updates.">
+    <meta property="og:url" content="{{ url()->current() }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Download App - {{ env('APP_NAME') }}">
+    <meta name="twitter:description" content="Download {{ env('APP_NAME') }} to access thousands of premium Neverness to Everness wallpapers with faster loading, offline favorites, and push notifications for new updates.">
+
+    <link rel="alternate" hreflang="en" href="{{ url()->current() }}">
     <x-file-assets />
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "{{ env('APP_NAME') }}",
+    "operatingSystem": "Android",
+    "applicationCategory": "GameApplication",
+    "description": "Download {{ env('APP_NAME') }} to access thousands of premium Neverness to Everness wallpapers with faster loading, offline favorites, and push notifications for new updates.",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    },
+    "downloadUrl": "https://play.google.com/store/apps/details?id=serarinne.ntewallpaper"
+    }
+    </script>
 </head>
 <body class="bg-[#0f172a] text-gray-200 font-sans min-h-screen flex flex-col selection:bg-cyan-500 selection:text-white">
 
@@ -91,14 +123,14 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 class="text-white font-bold text-sm leading-tight">Wallpaper App</h3>
+                                        <div class="text-white font-bold text-sm leading-tight">Wallpaper App</div>
                                     </div>
                                 </div>
                             </div>
 
                             {{-- Mockup Grid Items (Simulated Wallpapers) --}}
                             <div class="flex-grow p-3 overflow-y-auto no-scrollbar space-y-3">
-                                <p class="text-[10px] font-bold tracking-wider text-gray-500 uppercase">Featured Collections</p>
+                                <p class="text-xs font-semibold tracking-wide text-gray-300 uppercase">Featured Collections</p>
                                 <div class="grid grid-cols-2 gap-2">
                                     <div class="h-32 bg-gray-900 border border-gray-800 rounded-lg overflow-hidden relative">
                                         <div class="absolute inset-0 bg-cover bg-center opacity-60" style="background-image: url('https://play-lh.googleusercontent.com/wmaJaXkxPRfNOJgX5gsqtabVulQ0VqvqUFw-0XlDCC8b11URGjW1WA5afL3xSzF6oSNIN8bea8a89Z_rVoU4=w526-h296-rw');"></div>

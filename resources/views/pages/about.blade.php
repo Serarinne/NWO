@@ -101,7 +101,8 @@
                         <p class="text-gray-400 mb-6 max-w-lg mx-auto">
                             Whether you're here to find the perfect background or share a masterpiece, you're a vital part of {{ env('APP_NAME') }}.
                         </p>
-                        <a href="{{ route('login.index') }}" class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-cyan-600 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 transition-colors shadow-lg shadow-cyan-500/30">
+                        <a href="{{ route('login.index') }}"
+                        class="inline-flex items-center justify-center px-6 py-3 text-base font-semibold rounded-md text-slate-900 bg-cyan-400 hover:bg-cyan-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 transition-colors shadow-lg shadow-cyan-500/20">
                             Login to Account
                         </a>
                     </div>
