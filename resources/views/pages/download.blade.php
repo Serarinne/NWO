@@ -23,14 +23,14 @@
 
     <script type="application/ld+json">
     {
-    "@context": "https://schema.org",
-    "@type": "MobileApplication",
+    "@@context": "https://schema.org",
+    "@@type": "MobileApplication",
     "name": "{{ env('APP_NAME') }}",
     "operatingSystem": "Android",
     "applicationCategory": "GameApplication",
     "description": "Download {{ env('APP_NAME') }} to access thousands of premium Neverness to Everness wallpapers with faster loading, offline favorites, and push notifications for new updates.",
     "offers": {
-        "@type": "Offer",
+        "@@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
     },
