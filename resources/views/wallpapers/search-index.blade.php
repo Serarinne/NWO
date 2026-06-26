@@ -67,7 +67,7 @@
                                id="search-query" 
                                name="q" 
                                class="block w-full p-5 pl-14 text-base text-white bg-gray-900 border border-gray-700 rounded-xl focus:ring-0 focus:border-cyan-500 placeholder-gray-500 shadow-2xl" 
-                               placeholder="Try 'Hethereau', 'Mint', or '4K'..." 
+                               placeholder="Try 'Esper', 'Mint', or 'Nanally'..." 
                                required 
                                autofocus
                                autocomplete="off">
@@ -79,13 +79,13 @@
                 </form>
 
                 <div class="mt-8 text-center">
-                    <p class="text-xs text-gray-500 uppercase tracking-wide font-semibold mb-3">Trending Searches</p>
+                    <p class="text-sm text-gray-300 uppercase tracking-wide font-semibold mb-3">Trending Searches</p>
                     <div class="flex flex-wrap justify-center gap-2">
-                        <a href="{{ route('wallpapers.search', ['q' => 'Hethereau']) }}" class="px-3 py-1.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-full text-xs text-gray-300 transition-colors">Hethereau</a>
+                        <a href="{{ route('wallpapers.search', ['q' => 'Solo']) }}" class="px-3 py-1.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-full text-xs text-gray-300 transition-colors">Solo</a>
                         <a href="{{ route('wallpapers.search', ['q' => 'Mint']) }}" class="px-3 py-1.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-full text-xs text-gray-300 transition-colors">Mint</a>
-                        <a href="{{ route('wallpapers.search', ['q' => 'Nanali']) }}" class="px-3 py-1.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-full text-xs text-gray-300 transition-colors">Nanali</a>
-                        <a href="{{ route('wallpapers.search', ['q' => 'Urban']) }}" class="px-3 py-1.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-full text-xs text-gray-300 transition-colors">Urban</a>
-                        <a href="{{ route('wallpapers.search', ['q' => '4K']) }}" class="px-3 py-1.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-full text-xs text-gray-300 transition-colors">4K</a>
+                        <a href="{{ route('wallpapers.search', ['q' => 'Nanally']) }}" class="px-3 py-1.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-full text-xs text-gray-300 transition-colors">Nanally</a>
+                        <a href="{{ route('wallpapers.search', ['q' => 'Lacrimosa']) }}" class="px-3 py-1.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-full text-xs text-gray-300 transition-colors">Lacrimosa</a>
+                        <a href="{{ route('wallpapers.search', ['q' => 'Esper']) }}" class="px-3 py-1.5 bg-gray-800 hover:bg-gray-700 border border-gray-700 rounded-full text-xs text-gray-300 transition-colors">Esper</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
                     <a href="{{ route('characters.index') }}" class="group relative h-40 rounded-2xl overflow-hidden border border-gray-700 hover:border-pink-500 transition-all duration-300">
-                        <img src="https://storage.ntewallpapers.com/thumbnail/000/000/056/56.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
+                        <img src="https://storage.ntewallpapers.com/thumbnail/000/000/056/56.webp" alt="Characters - Meet your favorite Espers and characters" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 p-5">
                             <div class="text-xl font-bold text-white group-hover:text-pink-400 transition">Characters</div>
@@ -105,7 +105,7 @@
                     </a>
 
                     <a href="{{ route('tags.index') }}" class="group relative h-40 rounded-2xl overflow-hidden border border-gray-700 hover:border-emerald-500 transition-all duration-300">
-                        <img src="https://storage.ntewallpapers.com/thumbnail/000/000/043/43.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
+                        <img src="https://storage.ntewallpapers.com/thumbnail/000/000/043/43.webp" alt="Tags - Filter by style, mood, or specific traits" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 p-5">
                             <div class="text-xl font-bold text-white group-hover:text-emerald-400 transition">Tags</div>
@@ -114,7 +114,7 @@
                     </a>
 
                     <a href="{{ route('artists.index') }}" class="group relative h-40 rounded-2xl overflow-hidden border border-gray-700 hover:border-orange-500 transition-all duration-300">
-                        <img src="https://storage.ntewallpapers.com/thumbnail/000/000/040/40.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
+                        <img src="https://storage.ntewallpapers.com/thumbnail/000/000/040/40.webp" alt="Artists - Gallery of world-class illustrators" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 p-5">
                             <div class="text-xl font-bold text-white group-hover:text-orange-400 transition">Artists</div>
