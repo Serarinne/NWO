@@ -30,9 +30,9 @@
             {{-- Informasi Karakter di Bawah --}}
             <div class="absolute bottom-0 left-0 right-0 p-5 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
                 <div class="flex items-center justify-between gap-3">
-                    <h3 class="font-extrabold text-white text-base md:text-lg truncate leading-tight group-hover:text-cyan-400 transition-colors drop-shadow-md">
+                    <div class="font-extrabold text-white text-base md:text-lg truncate leading-tight group-hover:text-cyan-400 transition-colors drop-shadow-md">
                         {{ $character->name }}
-                    </h3>
+                    </div>
                     
                     {{-- Panah penunjuk yang muncul saat di-hover --}}
                     <div class="shrink-0 opacity-0 transform -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
