@@ -152,10 +152,10 @@
 
                             <div
                                 class="absolute bottom-0 left-0 right-0 p-3 transform translate-y-1 group-hover:translate-y-0 transition-transform duration-300">
-                                <h3
+                                <div
                                     class="font-bold text-white text-sm md:text-base truncate text-center group-hover:text-cyan-400 transition-colors">
                                     {{ $tag->name }}
-                                </h3>
+                                </div>
                                 @if (isset($tag->wallpapers_count))
                                     <p
                                         class="text-[10px] text-gray-400 text-center opacity-0 group-hover:opacity-100 transition-opacity uppercase tracking-wider">
@@ -176,7 +176,7 @@
                                 </path>
                             </svg>
                         </div>
-                        <h3 class="text-lg font-medium text-white">No tags found</h3>
+                        <div class="text-lg font-medium text-white">No tags found</div>
                         <p class="text-gray-400 mt-1">We couldn't find any tags matching
                             "<strong>{{ request('query') }}</strong>".</p>
                         @if (request('query'))

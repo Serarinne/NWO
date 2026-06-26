@@ -154,7 +154,7 @@
                                 </path>
                             </svg>
                         </div>
-                        <h3 class="text-lg font-medium text-white">No characters found</h3>
+                        <div class="text-lg font-medium text-white">No characters found</div>
                         <p class="text-gray-400 mt-1">Try searching for something else.</p>
                         @if (request('q'))
                             <a href="{{ route('characters.index') }}"

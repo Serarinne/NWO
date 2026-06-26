@@ -215,9 +215,9 @@
                                 @endif
                                 <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
                                 <div class="absolute bottom-0 left-0 p-4 text-white">
-                                    <h3 class="font-bold text-sm truncate">
+                                    <div class="font-bold text-sm truncate">
                                         {{ $wallpaper->characters->first()->name ?? $wallpaper->seo_title }}
-                                    </h3>
+                                    </div>
                                 </div>
                             </a>
                         @endforeach
@@ -259,7 +259,7 @@
                                 d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z">
                             </path>
                         </svg>
-                        <h3 class="text-xl font-bold text-gray-300 mb-2">No Wallpaper Found</h3>
+                        <div class="text-xl font-bold text-gray-300 mb-2">No Wallpaper Found</div>
                         <p class="text-gray-500 max-w-sm">We couldn't find any wallpaper at the moment. Please check
                             back later.</p>
                     </div>

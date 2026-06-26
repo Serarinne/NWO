@@ -91,7 +91,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 00-2-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-lg font-medium text-white">No articles found</h3>
+                        <div class="text-lg font-medium text-white">No articles found</div>
                         <p class="text-gray-400 mt-2">There are no posts in this category yet.</p>
                         <a href="{{ route('posts.index') }}" class="mt-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-lg text-white bg-cyan-600 hover:bg-cyan-700 transition-colors">
                             Back to Blog

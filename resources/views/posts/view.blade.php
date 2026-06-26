@@ -145,7 +145,7 @@
                     </div>
 
                     <div class="mt-16 pt-8 border-t border-gray-800">
-                        <h3 class="text-lg font-bold text-white mb-4 text-center">Share this post</h3>
+                        <div class="text-lg font-bold text-white mb-4 text-center">Share this post</div>
                         <div class="flex justify-center gap-4">
                             <a href="https://twitter.com/intent/tweet?url={{ url()->current() }}&text={{ $post->title }}" target="_blank" rel="noopener" class="p-3 bg-[#1DA1F2]/10 text-[#1DA1F2] rounded-full hover:bg-[#1DA1F2] hover:text-white transition-colors">
                                 <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">

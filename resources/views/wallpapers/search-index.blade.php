@@ -99,7 +99,7 @@
                         <img src="https://storage.ntewallpapers.com/thumbnail/000/000/056/56.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 p-5">
-                            <h3 class="text-xl font-bold text-white group-hover:text-pink-400 transition">Characters</h3>
+                            <div class="text-xl font-bold text-white group-hover:text-pink-400 transition">Characters</div>
                             <p class="text-[10px] leading-tight text-gray-400 group-hover:text-gray-200">Meet your favorite Espers and characters</p>
                         </div>
                     </a>
@@ -108,7 +108,7 @@
                         <img src="https://storage.ntewallpapers.com/thumbnail/000/000/043/43.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 p-5">
-                            <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition">Tags</h3>
+                            <div class="text-xl font-bold text-white group-hover:text-emerald-400 transition">Tags</div>
                             <p class="text-[10px] leading-tight text-gray-400 group-hover:text-gray-200">Filter by style, mood, or specific traits</p>
                         </div>
                     </a>
@@ -117,7 +117,7 @@
                         <img src="https://storage.ntewallpapers.com/thumbnail/000/000/040/40.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 p-5">
-                            <h3 class="text-xl font-bold text-white group-hover:text-orange-400 transition">Artists</h3>
+                            <div class="text-xl font-bold text-white group-hover:text-orange-400 transition">Artists</div>
                             <p class="text-[10px] leading-tight text-gray-400 group-hover:text-gray-200">Gallery of world-class illustrators</p>
                         </div>
                     </a>

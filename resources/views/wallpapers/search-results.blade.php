@@ -88,7 +88,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-lg font-medium text-white">No matches found</h3>
+                    <div class="text-lg font-medium text-white">No matches found</div>
                     <p class="text-gray-400 mt-2">We couldn't find any wallpapers for "<strong>{{ $query }}</strong>".</p>
                     <div class="mt-6 flex justify-center gap-3">
                         <a href="{{ route('wallpapers.index') }}" class="text-sm font-medium text-white bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-lg transition-colors">Go Home</a>
