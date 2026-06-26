@@ -91,7 +91,7 @@
                     <h3 class="text-lg font-medium text-white">No matches found</h3>
                     <p class="text-gray-400 mt-2">We couldn't find any wallpapers for "<strong>{{ $query }}</strong>".</p>
                     <div class="mt-6 flex justify-center gap-3">
-                        <a href="{{ route('home') }}" class="text-sm font-medium text-white bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-lg transition-colors">Go Home</a>
+                        <a href="{{ route('wallpapers.index') }}" class="text-sm font-medium text-white bg-cyan-600 hover:bg-cyan-700 px-4 py-2 rounded-lg transition-colors">Go Home</a>
                         <a href="{{ route('tags.index') }}" class="text-sm font-medium text-gray-300 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg transition-colors">Browse Tags</a>
                     </div>
                 </div>

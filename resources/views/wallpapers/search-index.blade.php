@@ -96,7 +96,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
                     <a href="{{ route('characters.index') }}" class="group relative h-40 rounded-2xl overflow-hidden border border-gray-700 hover:border-pink-500 transition-all duration-300">
-                        <img src="https://storage.ntewallpapers.com/thumbnail/256.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
+                        <img src="https://storage.ntewallpapers.com/thumbnail/000/000/056/56.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 p-5">
                             <h3 class="text-xl font-bold text-white group-hover:text-pink-400 transition">Characters</h3>
@@ -105,7 +105,7 @@
                     </a>
 
                     <a href="{{ route('tags.index') }}" class="group relative h-40 rounded-2xl overflow-hidden border border-gray-700 hover:border-emerald-500 transition-all duration-300">
-                        <img src="https://storage.ntewallpapers.com/thumbnail/231.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
+                        <img src="https://storage.ntewallpapers.com/thumbnail/000/000/043/43.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 p-5">
                             <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition">Tags</h3>
@@ -114,7 +114,7 @@
                     </a>
 
                     <a href="{{ route('artists.index') }}" class="group relative h-40 rounded-2xl overflow-hidden border border-gray-700 hover:border-orange-500 transition-all duration-300">
-                        <img src="https://storage.ntewallpapers.com/thumbnail/1024.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
+                        <img src="https://storage.ntewallpapers.com/thumbnail/000/000/040/40.webp" class="w-full h-full object-cover transition duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70">
                         <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/20 to-transparent"></div>
                         <div class="absolute bottom-0 left-0 p-5">
                             <h3 class="text-xl font-bold text-white group-hover:text-orange-400 transition">Artists</h3>
