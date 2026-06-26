@@ -113,7 +113,7 @@
                             </svg>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg font-semibold text-white">Unlock Full Access</h3>
+                            <div class="text-lg font-semibold text-white">Unlock Full Access</div>
                             <p class="text-sm text-gray-400 mt-1">Log in to save favorites, comment, and see exclusive high-res content.</p>
                         </div>
                     </div>
@@ -125,7 +125,7 @@
                             </svg>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg font-semibold text-white">Curate Your Gallery</h3>
+                            <div class="text-lg font-semibold text-white">Curate Your Gallery</div>
                             <p class="text-sm text-gray-400 mt-1">Save your favorite Neverness to Everness wallpapers to your profile and build your own collection.</p>
                         </div>
                     </div>
@@ -137,7 +137,7 @@
                             </svg>
                         </div>
                         <div class="ml-4">
-                            <h3 class="text-lg font-semibold text-white">Join the Community</h3>
+                            <div class="text-lg font-semibold text-white">Join the Community</div>
                             <p class="text-sm text-gray-400 mt-1">Interact with other fans, follow artists, and share your passion for the world of Hethereau.</p>
                         </div>
                     </div>
