@@ -81,7 +81,7 @@
                             </div>
                             Working Codes
                         </h2>
-                        <span class="text-sm font-medium text-gray-500 bg-gray-800/50 px-3 py-1 rounded-full border border-gray-700/50">
+                        <span class="text-sm font-medium text-gray-300 bg-gray-800/80 px-3 py-1 rounded-full border border-gray-700/80">
                             {{ $activeCodes->count() }} Available
                         </span>
                     </div>
